@@ -8,8 +8,8 @@ def my_collect(arr)
   my_coll
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
+languages = ['ruby', 'javascript', 'python', 'objective-c']
 
-my_collect(collection) do |i|
+my_collect(languages) do |i|
   puts i.upcase
 end
