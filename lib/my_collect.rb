@@ -9,5 +9,5 @@ end
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 
 my_collect(languages) do |i|
-  puts i.upcase
+  i.upcase
 end
