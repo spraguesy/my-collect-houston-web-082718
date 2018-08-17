@@ -1,8 +1,7 @@
-def my_collect(arr)
+def my_collect(array)
   i = 0
-  my_collection = []
-  while i < arr.length do
-    my_collection.push(yield arr[i])
+  while i < array.length do
+    yield array[i]
     i += 1
   end
 end
@@ -12,8 +11,4 @@ students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 my_collect(languages) do |i|
   puts i.upcase
-end
-
-my_collect(students) do |name|
-  puts name.split(" ").first
 end
