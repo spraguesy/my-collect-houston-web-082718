@@ -11,5 +11,5 @@ end
 collection = ['ruby', 'javascript', 'python', 'objective-c']
 
 my_collect(collection) do |i|
-  i.upcase
+  puts i.upcase
 end
