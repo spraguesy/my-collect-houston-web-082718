@@ -1,6 +1,6 @@
 def my_collect(array)
   array.collect do |i|
-    yield array[i]
+    yield i
   end
 end
 
